@@ -1,118 +1,110 @@
+# Loan Simulator
 
-# Simulador de Parcelas
+## Overview
 
-## Visão Geral
+**Loan Simulator** is a straightforward and intuitive web application designed to help users calculate installment values based on the desired loan amount, number of payments, and applied interest rates. Ideal for managing and simulating financing scenarios, the application presents results in an organized and clear interactive table.
 
-**Simulador de Parcelas** é uma aplicação simples e intuitiva desenvolvida para ajudar os usuários a calcular o valor de parcelas com base no montante desejado, número de parcelas e taxas aplicadas. Ideal para gerenciar e simular financiamentos, o aplicativo apresenta os resultados de forma organizada e clara em uma tabela interativa.
+## Features
 
-## Funcionalidades
+- **Quick Calculation:** Enter the loan amount and instantly view payment values for various interest rates and terms.
+- **Interactive Table:** Results are displayed in a structured table containing detailed information on:
+  - Interest rates
+  - Number of installments
+  - Value of each installment
+  - Total amount with interest
+- **User-Friendly Interface:** Simple and intuitive design for ease of use.
 
-- **Cálculo Rápido:** Insira o valor a ser parcelado e veja rapidamente os valores de parcelas para diferentes taxas e prazos.
-- **Tabela Interativa:** Os resultados são exibidos em uma tabela organizada, com informações detalhadas sobre:
-  - Taxas de juros
-  - Número de parcelas
-  - Valor de cada parcela
-  - Valor total com juros
-- **Interface Amigável:** Design simples e intuitivo para facilitar o uso.
+## Technologies Used
 
-## Tecnologias Utilizadas
+- **HTML5:** Page structure.
+- **CSS3:** Visual styling.
+- **JavaScript:** Calculation logic and dynamic table generation.
 
-- **HTML5:** Estrutura da página.
-- **CSS3:** Estilos visuais.
-- **JavaScript:** Lógica do cálculo e geração dinâmica da tabela.
+## Project Structure
 
-## Estrutura do Projeto
 
-```
-SimuladorParcelas/
-├── index.html           # Página principal
-├── styles.css           # Estilos CSS personalizados
-├── script.js            # Script JavaScript para cálculos e manipulação de tabela
-├── README.md            # Documentação do projeto
-```
+loan_simulator/
+├── index.html           # Main page
+├── styles.css           # Custom CSS styles
+├── script.js            # JavaScript logic for calculations and table manipulation
+├── README.md            # Project documentation
 
-## Instalação
 
-1. **Clone o Repositório**
+## Installation
 
-   ```bash
+1. **Clone the Repository**
+
+   bash
    git clone https://github.com/dougdotcon/SimuladorParcelas.git
-   ```
+   
 
-2. **Navegue até o Diretório do Projeto**
+2. **Navigate to the Project Directory**
 
-   ```bash
+   bash
    cd SimuladorParcelas
-   ```
+   
 
-3. **Abra o Arquivo `index.html` no Navegador**
+3. **Open `index.html` in Your Browser**
 
-   Você pode abrir o arquivo diretamente no seu navegador preferido clicando duas vezes sobre ele ou utilizando um servidor local.
+   You can open the file directly in your browser by double-clicking it or by using a local server.
 
-   **Usando um Servidor Local com Python:**
+   **Using a Local Server with Python:**
 
-   ```bash
-   # Para Python 3.x
+   bash
+   # For Python 3.x
    python -m http.server 8000
 
-   # Acesse http://localhost:8000 no seu navegador
-   ```
+   # Access http://localhost:8000 in your browser
+   
 
-## Uso
+## Usage
 
-1. **Digite o Valor a Parcelar**
+1. **Enter the Loan Amount**
+   - Type the value in the "Enter the amount to be financed" field.
 
-   - Insira o valor no campo "Digite o valor a parcelar".
+2. **Calculate Installments**
+   - Click the **"Calculate"** button.
+   - Payment values will be calculated based on different interest rates and terms.
 
-2. **Calcule as Parcelas**
+3. **View Results**
+   - The table will display:
+     - Applied interest rates
+     - Number of installments
+     - Value of each installment
+     - Total amount at the end of the period
 
-   - Clique no botão **"Calcular"**.
-   - Os valores das parcelas serão calculados com base em diferentes taxas e prazos.
+## Contributing
 
-3. **Visualize os Resultados**
+Contributions are welcome! If you wish to improve this project, please follow the steps below:
 
-   - A tabela exibirá:
-     - Taxas de juros aplicadas
-     - Número de parcelas
-     - Valor de cada parcela
-     - Valor total ao final do período
+1. **Fork this Repository**
+2. **Create a Feature Branch**
 
-## Contribuição
+   bash
+   git checkout -b feature/new-feature
+   
 
-Contribuições são bem-vindas! Se você deseja melhorar este projeto, siga os passos abaixo:
+3. **Commit Your Changes**
 
-1. **Fork este Repositório**
-2. **Crie uma Branch para sua Feature**
+   bash
+   git commit -m "Add new feature"
+   
 
-   ```bash
-   git checkout -b feature/nova-feature
-   ```
+4. **Push to the Branch**
 
-3. **Commit suas Alterações**
+   bash
+   git push origin feature/new-feature
+   
 
-   ```bash
-   git commit -m "Adiciona nova feature"
-   ```
+5. **Open a Pull Request**
 
-4. **Push para a Branch**
+## License
 
-   ```bash
-   git push origin feature/nova-feature
-   ```
+This project is licensed under the [MIT License](LICENSE).
 
-5. **Abra um Pull Request**
+## Contact
 
-## Licença
-
-Este projeto está licenciado sob a [MIT License](LICENSE).
-
-## Contato
-
-- **Autor:** Douglas H. Machado
-- **Email:** [dougdotcon@gmail.om](mailto:dougdotcon@gmail.om)
+- **Author:** Douglas H. Machado
+- **Email:** [dougdotcon@gmail.com](mailto:dougdotcon@gmail.com)
 - **LinkedIn:** [dougdoton](https://www.linkedin.com/in/dougdoton/)
 - **GitHub:** [dougdotcon](https://github.com/dougdotcon)
-
----
-
-*Simulador de Parcelas foi desenvolvido para facilitar o planejamento financeiro, ajudando você a visualizar e organizar suas parcelas com eficiência e clareza.*
